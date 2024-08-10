@@ -129,18 +129,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-JAZZMIN_SETTINGS = {
-    "site_title": "Pallikammiti",
-    "site_header": "Pallikammiti",
-    "site_brand": "Admin panel",
-    "welcome_sign": "Welcome to Pallikammiti Admin",
-    "show_ui_builder": True,
-    "icons": {
-        "auth": "fas fa-users-cog",
-        "auth.user": "fas fa-user",
-        "auth.Group": "fas fa-users",
-    },
-    # Add more customizations here
-}
-
 
